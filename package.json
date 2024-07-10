@@ -1,0 +1,30 @@
+{
+  "name": "ts-enum-demo",
+  "version": "1.0.0",
+  "description": "The demo project for applying TS enum type to the fictional permission management",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --watch src -e ts --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafeWinter/ts-enum-demo.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "enum",
+    "permission management"
+  ],
+  "author": "Anton Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SafeWinter/ts-enum-demo/issues"
+  },
+  "homepage": "https://github.com/SafeWinter/ts-enum-demo#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
